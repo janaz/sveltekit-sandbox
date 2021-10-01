@@ -6,7 +6,7 @@
   }
 </script>
 
-<button on:click={increment}>
+<button class="py-4 px-18 text-red-500 bg-red-500 bg-opacity-10 rounded-full border-opacity-100 outline-none w-16" on:click={increment}>
   Clicks: {count}
 </button>
 
@@ -14,16 +14,9 @@
   button {
     font-family: inherit;
     font-size: inherit;
-    /* Using Tailwind classes directly on your HTML elements is recommended over @apply. */
-    @apply py-4 px-8;
-    @apply text-red-500;
-    @apply bg-red-500 bg-opacity-10;
-    @apply rounded-full;
-    @apply border-opacity-100;
-    @apply outline-none;
-    @apply w-48;
-    height: 60px;
+    height: 160px;
     font-variant-numeric: tabular-nums;
+
   }
 
   button:hover {
