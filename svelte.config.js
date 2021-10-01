@@ -1,5 +1,5 @@
 import preprocess from 'svelte-preprocess'
-import ssr from '@sveltejs/adapter-static'
+import nodeAdapter from '@sveltejs/adapter-node'
 
 /** @type {import('@sveltejs/kit').Config} */
 export default {
@@ -13,7 +13,7 @@ export default {
   ],
 
   kit: {
-    adapter: ssr(),
+    adapter: nodeAdapter(),
     target: '#svelte'
   }
 }
