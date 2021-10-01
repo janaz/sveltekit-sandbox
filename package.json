@@ -2,7 +2,7 @@
   "name": "sveltekit-typescript-postcss-tailwind2",
   "version": "0.0.4",
   "scripts": {
-    "dev": "svelte-kit dev",
+    "dev": "svelte-kit dev --host 0.0.0.0 --port 3333",
     "build": "svelte-kit build",
     "preview": "svelte-kit preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
