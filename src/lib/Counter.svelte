@@ -6,7 +6,10 @@
   }
 </script>
 
-<button class="py-4 px-8 text-red-500 bg-red-500 bg-opacity-10 rounded-full border-opacity-100 outline-none w-48" on:click={increment}>
+<button
+  class="py-4 px-8 text-red-500 bg-red-500 bg-opacity-10 rounded-full border-opacity-100 outline-none w-48"
+  on:click={increment}
+>
   Clicks: {count}
 </button>
 
@@ -16,7 +19,6 @@
     font-size: inherit;
     height: 60px;
     font-variant-numeric: tabular-nums;
-
   }
 
   button:hover {

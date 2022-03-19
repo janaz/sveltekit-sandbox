@@ -17,10 +17,7 @@
   <meta property="og:url" content="https://metatags.io/" />
   <meta property="og:title" content="SvelteKit ❤️ Tailwind 2" />
   <meta property="og:description" content="SvelteKit and Tailwind 2 toggle dark/light theme demo" />
-  <meta
-    property="og:image"
-    content="https://sveltekit-tailwind2.netlify.app/screenshot.png"
-  />
+  <meta property="og:image" content="https://sveltekit-tailwind2.netlify.app/screenshot.png" />
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
@@ -30,10 +27,7 @@
     property="twitter:description"
     content="SvelteKit and Tailwind 2 toggle dark/light theme demo"
   />
-  <meta
-    property="twitter:image"
-    content="https://sveltekit-tailwind2.netlify.app/screenshot.png"
-  />
+  <meta property="twitter:image" content="https://sveltekit-tailwind2.netlify.app/screenshot.png" />
 </svelte:head>
 
 <h1 class="text-5xl font-extrabold mb-2">Hello {$theme} world!</h1>
